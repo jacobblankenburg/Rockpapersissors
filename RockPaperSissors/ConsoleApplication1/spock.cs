@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class scissors : winnerorloser
+    class spock : winnerorloser
     {
          
         public bool displayWin()
         {
-            Console.WriteLine("Scissors beats paper");
-            Console.WriteLine("Scissors beats lizard");
+            Console.WriteLine("Spock beats rock");
+            Console.WriteLine("Spock beats scissors");
             return displayWin();
         }
         public bool displayLoss()
         {
-            Console.WriteLine("Scissors loses to rock");
-            Console.WriteLine("Scissors loses to spock");
+            Console.WriteLine("Spock loses to paper");
+            Console.WriteLine("Spock loses to lizard");
             return displayLoss();
         }
 

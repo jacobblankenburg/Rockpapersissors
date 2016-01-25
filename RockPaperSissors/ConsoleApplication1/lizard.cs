@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class scissors : winnerorloser
+    class lizard : winnerorloser
     {
          
         public bool displayWin()
         {
-            Console.WriteLine("Scissors beats paper");
-            Console.WriteLine("Scissors beats lizard");
+            Console.WriteLine("Lizard beats sissor");
+            Console.WriteLine("Lizard beats lizard");
             return displayWin();
         }
         public bool displayLoss()
         {
-            Console.WriteLine("Scissors loses to rock");
-            Console.WriteLine("Scissors loses to spock");
+            Console.WriteLine("Lizard loses to paper");
+            Console.WriteLine("Lizard loses to spock");
             return displayLoss();
         }
 
     }
 }
+

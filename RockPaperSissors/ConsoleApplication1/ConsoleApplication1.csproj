@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="computerchoice.cs" />
-    <Compile Include="moves.cs" />
+    <Compile Include="ComputerGamePlay.cs" />
+    <Compile Include="gamesetup.cs" />
+    <Compile Include="lizard.cs" />
+    <Compile Include="paper.cs" />
+    <Compile Include="playerchoice.cs" />
+    <Compile Include="Players.cs" />
     <Compile Include="playersname.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rock.cs" />
+    <Compile Include="sissors.cs" />
+    <Compile Include="spock.cs" />
+    <Compile Include="userInput.cs" />
+    <Compile Include="winnerorloser.cs" />
+    <Compile Include="write.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

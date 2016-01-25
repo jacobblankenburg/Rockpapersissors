@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class computerchoice
-    {
-        public computerchoice()
+    interface winnerorloser
         {
-            Random r = new Random();
-            int computerChoice = r.Next(4);
+            bool displayWin();
+            bool displayLoss();
         }
-    }
 }
